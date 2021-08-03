@@ -1,0 +1,257 @@
+*,
+*::before,
+*::after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+body {
+    /* empty */
+}
+
+main {
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 446px;
+    width: 1080px;
+    border-radius: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20% 15% 20% 15%;
+    display: grid;
+    grid-template-columns: repeat(2, 540px);
+}
+
+.left-pane {
+    grid-column: 1/2;
+    background: hsl(244, 38%, 16%);
+    grid-template-rows: repeat(3, 1fr);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 8%;
+    padding-right: 10%;
+}
+
+.left-sec-1 {
+    grid-row: 1/2;
+    padding-top: 20%;
+}
+
+.left-sec-1 h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+.left-sec-1 h1 span {
+    color: hsl(277, 64%, 61%);
+}
+
+.left-sec-2 {
+    grid-row: 2/3;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 10%;
+    padding-right: 10%;
+    letter-spacing: 0.05em;
+}
+
+.left-sec-3 {
+    display: grid;
+    grid-row: 3/4;
+    grid-template-columns: repeat(3, 1fr);
+    /* 180px 180px 180px */
+    font-family: "Inter";
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+.left-sec-3-subsec-1 {
+    grid-column: 1/2;
+}
+
+.left-sec-3-subsec-2 {
+    grid-column: 2/3;
+}
+
+.left-sec-3-subsec-3 {
+    grid-column: 3/4;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-family: "Inter";
+}
+
+.stat-desc {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+}
+
+.right-pane {
+    grid-column: 2/3;
+    background-image: url(/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.img-holder {
+    background: url(/image-header-desktop.jpg);
+    background-color: hsla(277, 64%, 61%, 0.472);
+    background-blend-mode: overlay;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    object-fit: contain;
+}
+
+@media (max-width:1140px) {
+    main {
+        all: unset;
+        background-color: hsl(233, 47%, 7%);
+        height: 200vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .container {
+        all: unset;
+        height: auto;
+        width: 85%;
+        border-radius: 10px;
+        display: grid;
+        grid-template-rows: 0.8fr 1fr;
+        padding-bottom: 20%;
+        margin-top: 20%;
+        overflow: hidden;
+    }
+    .right-pane {
+        all: unset;
+        grid-row: 1/2;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        position: relative;
+        width: 100%;
+    }
+    .img-holder {
+        background: url(/image-header-desktop.jpg);
+        background-color: hsla(277, 64%, 61%, 0.472);
+        background-blend-mode: overlay;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        background-position: center;
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 0px;
+    }
+    .left-pane {
+        all: unset;
+        grid-row: 2/3;
+        background: hsl(244, 38%, 16%);
+        grid-template-rows: repeat(3, 1fr);
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding-left: 8%;
+        padding-right: 10%;
+    }
+    .left-sec-1 {
+        grid-row: 1/2;
+        padding-top: 20%;
+    }
+    .left-sec-1 h1 {
+        color: hsl(0, 0%, 100%);
+        font-family: "Inter";
+        font-weight: 700;
+        text-align: center;
+    }
+    .left-sec-1 h1 span {
+        color: hsl(277, 64%, 61%);
+    }
+    .left-sec-2 {
+        grid-row: 2/3;
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 15px;
+        color: hsla(0, 0%, 100%, 0.75);
+        padding-top: 15%;
+        padding-left: 10%;
+        letter-spacing: 0.05em;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-sec-3 {
+        all: unset;
+        display: grid;
+        grid-row: 3/4;
+        grid-template-rows: repeat(3, 1fr);
+        font-family: "Inter";
+        padding-top: 6%;
+        padding-bottom: 10%;
+    }
+    .left-sec-3-subsec-1 {
+        all: unset;
+        grid-row: 1/2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .left-sec-3-subsec-2 {
+        all: unset;
+        grid-row: 2/3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 6%;
+    }
+    .left-sec-3-subsec-3 {
+        all: unset;
+        grid-row: 3/4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 6%;
+    }
+    h2 {
+        color: hsl(0, 0%, 100%);
+        font-weight: 700;
+        font-family: "Inter";
+        font-size: 35px;
+        margin-bottom: 1%;
+    }
+    .stat-desc {
+        color: hsla(0, 0%, 100%, 0.6);
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+    }
+}

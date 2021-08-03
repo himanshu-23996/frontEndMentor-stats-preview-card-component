@@ -15,7 +15,7 @@
 <h1 align="center">Report</h1>
 <hr>
    
- ##New topics learnt:
+##New topics learnt:
    <ul>
      <li>background-blend-mode</li>
      <li>Proper use of margin and padding for content positioning and alignment</li>
@@ -23,7 +23,7 @@
     <li>Font rendering while hosting a site on github</li> 
    </ul>
    
- ##Topics to improve on
+##Topics to improve on
    <ul>
      <li>Media query</li>
      <li>Image resizing in responsive designing</li>

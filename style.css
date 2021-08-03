@@ -110,7 +110,7 @@ h2 {
 }
 
 .img-holder {
-    background: url(/image-header-desktop.jpg);
+    background: url(image-header-desktop.jpg);
     background-color: hsla(277, 64%, 61%, 0.472);
     background-blend-mode: overlay;
     background-size: contain;
@@ -154,7 +154,7 @@ h2 {
         width: 100%;
     }
     .img-holder {
-        background: url(/image-header-mobile.jpg);
+        background: url(image-header-mobile.jpg);
         background-color: hsla(277, 64%, 61%, 0.472);
         background-blend-mode: overlay;
         background-repeat: no-repeat;

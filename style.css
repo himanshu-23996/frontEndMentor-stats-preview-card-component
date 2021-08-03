@@ -8,6 +8,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+/* Adding fonts */
+
+@font-face {
+    font-family: "Inter";
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+}
+
 body {
     /* empty */
 }
@@ -70,7 +78,6 @@ main {
     display: grid;
     grid-row: 3/4;
     grid-template-columns: repeat(3, 1fr);
-    /* 180px 180px 180px */
     font-family: "Inter";
     padding-top: 20%;
     padding-bottom: 10%;

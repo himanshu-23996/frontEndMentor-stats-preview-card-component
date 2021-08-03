@@ -19,6 +19,7 @@
    <ul>
      <li>background-blend-mode</li>
      <li>Proper use of margin and padding for content positioning and alignment</li>
+     <li>Image rendering while hosting a site on github</li>
    </ul>
    
  ##Topics to improve on

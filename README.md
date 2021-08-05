@@ -21,6 +21,7 @@
      <li>Proper use of margin and padding for content positioning and alignment</li>
      <li>Image rendering while hosting a site on github</li>
     <li>Font rendering while hosting a site on github</li> 
+    <li>Overlay using background-blend-mode & a transparent color over a background</li>
    </ul>
    
 ##Topics to improve on
